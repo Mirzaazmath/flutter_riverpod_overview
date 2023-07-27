@@ -6,7 +6,12 @@ A new Flutter project.
 
 
 # result
-<img src="https://github.com/Mirzaazmath/flutter_riverpod_overview/blob/main/assets/result.gif" height="400">
+<img src="https://github.com/Mirzaazmath/flutter_riverpod_overview/blob/RiverpodFutureProvider/assets/result.gif"  height="400">
+
+
+# Dependency 
+* Http
+* Flutter_riverpod
 
 
 # Different Types of Providers in Riverpod
