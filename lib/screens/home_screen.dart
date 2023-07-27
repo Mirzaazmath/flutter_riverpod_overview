@@ -33,12 +33,9 @@ class HomeScreen extends ConsumerWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){
-          /// here we are increasing the state of our counter provider
+          /// here we are calling increament() which increase the value by 1
 
-
-         // ref.read(CounterProvider.notifier).state++;
-          //  or
-          ref.read(CounterProvider.notifier).update((state) => state+1);
+          ref.read(CounterProvider.notifier).increament();
 
         },
         child: const Icon(Icons.add),
